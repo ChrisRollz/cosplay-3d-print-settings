@@ -1,0 +1,250 @@
+{
+  "name": "Slades Overture TPU Settings",
+  "profile_name": "my settings v2",
+  "source": "slades_armory",
+  "settings": {
+    "layer_height": {
+      "layer_height": "0.48 mm",
+      "first_layer_height": "0.24 mm",
+      "mixed_color_sublayer": false
+    },
+    "line_width": {
+      "default": "0.42 mm or %",
+      "first_layer": "0.5 mm or %",
+      "outer_wall": "0.6 mm or %",
+      "inner_wall": "0.6 mm or %",
+      "top_surface": "0.38 mm or %",
+      "sparse_infill": "0.45 mm or %",
+      "internal_solid_infill": "0.42 mm or %",
+      "support": "0.42 mm or %"
+    },
+    "seam": {
+      "seam_position": "Aligned",
+      "staggered_inner_seams": false,
+      "seam_gap": "100%",
+      "scarf_joint_seam_beta": "None",
+      "role_base_wipe_speed": true
+    },
+    "walls": {
+      "wall_loops": "2 layers",
+      "embedding_the_wall_into_the_infill": false,
+      "alternate_extra_wall": false,
+      "detect_thin_walls": false
+    },
+    "top_bottom_shells": {
+      "top_surface_pattern": "Monotonic",
+      "top_shell_layers": "4 layers",
+      "top_shell_thickness": "2 mm",
+      "bottom_surface_pattern": "Monotonic",
+      "bottom_shell_layers": "3 layers",
+      "bottom_shell_thickness": "1.5 mm",
+      "top_bottom_solid_infill_wall_overlap": "25 %"
+    },
+    "infill": {
+      "sparse_infill_density": "3 %",
+      "intelligent_infill": false,
+      "sparse_infill_pattern": "Rectilinear",
+      "sparse_infill_anchor_length": "400% mm or %",
+      "maximum_length_of_the_infill_anchor": "20 mm or %",
+      "internal_solid_infill_pattern": "Monotonic",
+      "apply_gap_fill": "Everywhere",
+      "filter_out_tiny_gaps": "0 mm",
+      "infill_wall_overlap": "30 %",
+      "anchor_solid_infill_by_x_mm": "0 mm or %",
+      "fill_multiline": "1",
+      "sparse_infill_direction": 45,
+      "solid_infill_direction": 45,
+      "rotate_solid_infill_direction": true,
+      "bridge_infill_direction": 0,
+      "minimum_sparse_infill_threshold": "15 mm²",
+      "infill_combination": false,
+      "detect_narrow_internal_solid_infill": true,
+      "ensure_vertical_shell_thickness": "All"
+    },
+    "precision": {
+      "wipe_speed": "80% mm/s or %",
+      "wipe_on_loops": false,
+      "wipe_before_external_loop": false,
+      "slice_gap_closing_radius": "0.049 mm",
+      "resolution": "0.012 mm",
+      "arc_fitting": true,
+      "x_y_hole_compensation": "0 mm",
+      "x_y_contour_compensation": "0 mm",
+      "elephant_foot_compensation": "0.15 mm",
+      "elephant_foot_compensation_layers": "1 layers",
+      "precise_wall": false,
+      "convert_holes_to_polyholes": false,
+      "precise_z_height": false
+    },
+    "z_contouring": {
+      "enable_z_layer_anti_aliasing": false
+    },
+    "ironing": {
+      "ironing_type": "No ironing"
+    },
+    "wall_generator": "Classic",
+    "walls_and_surfaces": {
+      "walls_printing_order": "Inner/Outer/...",
+      "print_infill_first": false,
+      "wall_loop_direction": "Auto",
+      "top_surface_flow_ratio": 1.15,
+      "bottom_surface_flow_ratio": 1,
+      "only_one_wall_on_top_surfaces": true,
+      "one_wall_threshold": "300% mm/s or %",
+      "only_one_wall_on_first_layer": false,
+      "avoid_crossing_walls": true,
+      "avoid_crossing_walls_max_detour_length": "0 mm or %",
+      "small_area_flow_compensation_beta": false,
+      "smoothing_wall_speed_along_z_experimental": false
+    },
+    "bridging": {
+      "bridge_flow_ratio": 1,
+      "internal_bridge_flow_ratio": 1,
+      "bridge_density": "100 %",
+      "thick_bridges": false,
+      "thick_internal_bridges": true,
+      "don_t_filter_out_small_internal_bridges_beta": "Disabled",
+      "bridge_counterbore_holes": "None"
+    },
+    "overhangs": {
+      "detect_overhang_walls": true,
+      "make_overhangs_printable": false,
+      "extra_perimeters_on_overhangs": false,
+      "reverse_on_odd": false,
+      "overhang_optimization_beta": false
+    },
+    "speed": {
+      "first_layer_speed": {
+        "first_layer": "50 mm/s",
+        "first_layer_infill": "100 mm/s",
+        "initial_layer_travel_speed": "50% mm/s or %",
+        "number_of_top_interface_layers": "0 layers"
+      },
+      "other_layers_speed": {
+        "outer_wall": "40 mm/s",
+        "inner_wall": "90 mm/s",
+        "small_perimeters": "50% mm/s or %",
+        "small_perimeters_threshold": "0 mm",
+        "sparse_infill": "130 mm/s",
+        "internal_solid_infill": "130 mm/s",
+        "top_surface": "90 mm/s",
+        "gap_infill": "150 mm/s",
+        "support": "130 mm/s",
+        "support_interface": "80 mm/s",
+        "bridge": "50% mm/s or %",
+        "sparse_infill_other": "100% mm/s or %",
+        "internal_solid_infill_other": "100% mm/s or %",
+        "first_layer_speed_val": "2000 mm/s",
+        "top_surface_speed": "5000 mm/s",
+        "travel": "12000 mm/s",
+        "initial_layer_travel": "0 mm/s",
+        "accel_to_decel": "100 %",
+        "travel_short_distance_acceleration": "0 mm/s²",
+        "travel_short_distance_threshold": "1.5 mm"
+      },
+      "overhang_speed": {
+        "slow_down_for_overhangs": true,
+        "classic_mode": false,
+        "slow_down_for_curled_perimeters": true,
+        "overhang_speed_thresholds": [
+          { "percentage": "10%", "speed": "0 mm/s or %" },
+          { "percentage": "25%", "speed": "40 mm/s or %" },
+          { "percentage": "50%", "speed": "20 mm/s or %" },
+          { "percentage": "75%", "speed": "5 mm/s or %" }
+        ],
+        "bridge_overhang": "40 mm/s External",
+        "bridge_speed": "150% mm/s or % Internal"
+      },
+      "travel_speed": {
+        "travel": "250 mm/s"
+      }
+    },
+    "acceleration": {
+      "normal_printing": "12000 mm/s²",
+      "outer_wall": "5000 mm/s²",
+      "inner_wall": "5000 mm/s²",
+      "bridge": "50% mm/s² or %",
+      "sparse_infill": "100% mm/s² or %",
+      "internal_solid_infill": "100% mm/s² or %",
+      "first_layer": "2000 mm/s²"
+    },
+    "jerk_xy": {
+      "default": "12 mm/s",
+      "outer_wall": "8 mm/s",
+      "inner_wall": "8 mm/s",
+      "infill": "10 mm/s",
+      "top_surface": "10 mm/s",
+      "first_layer": "8 mm/s",
+      "travel": "12 mm/s",
+      "advanced": {
+        "extrusion_rate_smoothing": "0 mm/s or %",
+        "under_extrusion_recovery_after_overhangs_beta": false,
+        "weight_limit_speed_and_acceleration": true,
+        "height_limit_speed_and_acceleration": true
+      }
+    },
+    "cooling": {
+      "fan_speed_for_overhangs": "100 %",
+      "support_interface_fan_speed": "-1 %",
+      "side_fan": {
+        "fan_speed": "70 %",
+        "enable_special_area_additional_cooling_fan": false,
+        "special_area_additional_cooling_fan_speed": "100 %",
+        "auxiliary_fan_opening_height": "0.5 mm"
+      },
+      "back_fan": {
+        "activate_air_filtration": false,
+        "during_print": "70 %",
+        "complete_print": "80 %"
+      }
+    },
+    "support": {
+      "enable_support": true,
+      "type": "Tree(auto)",
+      "style": "Default",
+      "threshold_angle": 30,
+      "on_build_plate_only": true,
+      "support_critical_regions_only": false,
+      "remove_small_overhangs": true,
+      "raft": {
+        "raft_layers": "0 layers"
+      },
+      "filament_for_supports": {
+        "support_raft_base": "Default",
+        "support_raft_interface": "Default"
+      },
+      "support_ironing": {
+        "ironing_support_interface": false
+      },
+      "advanced_support": {
+        "first_layer_density": "90 %",
+        "first_layer_expansion": "2 mm",
+        "top_z_distance": "0.35 mm",
+        "base_pattern_normal": "Rectilinear",
+        "support_wall_loops_normal": "0",
+        "base_pattern_spacing": "2.5 mm",
+        "pattern_angle": 0,
+        "top_interface_layers": "4 layers",
+        "bottom_interface_layers": "2 layers",
+        "minimum_support_contact_area": "0.25 mm²",
+        "interface_pattern": "Rectilinear",
+        "interface_spacing": "0.5 mm",
+        "normal_support_expansion": "0 mm",
+        "support_object_xy_distance": "0.7 mm",
+        "support_object_first_layer_gap": "0.2 mm",
+        "support_distance_priority": "X/Y override",
+        "max_bridge_length": "10 mm",
+        "independent_support_layer_height": true,
+        "validation_and_repair_support": false
+      },
+      "tree_supports": {
+        "tree_support_branch_distance": "5 mm",
+        "tree_support_branch_diameter": "2 mm",
+        "tree_support_branch_angle": 45,
+        "branch_diameter_angle": 5,
+        "base_pattern_tree": "Default",
+        "support_wall_loops_tree": "0"
+      }
+    }
+  }
+}

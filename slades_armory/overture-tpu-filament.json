@@ -1,0 +1,131 @@
+{
+  "name": "Slades Overture TPU Filament Settings",
+  "source": "slades_armory",
+  "filament_settings": {
+    "basic_information": {
+      "type": "TPU",
+      "vendor": "Generic",
+      "soluble_filament": false,
+      "filament_for_supports": false,
+      "required_nozzle_hrc": 0,
+      "diameter": "1.75 mm",
+      "adhesiveness_category": 600,
+      "flow_ratio": 1,
+      "enable_pressure_advance": false,
+      "pressure_advance": 0.3,
+      "density": "1.24 g/cm³",
+      "shrinkage_xy": "100 %",
+      "shrinkage_z": "100 %",
+      "price": "25 money/kg",
+      "softening_temperature": "60 °C",
+      "idle_temperature": "0 °C",
+      "recommended_nozzle_temperature_min": "200 °C"
+    },
+    "print_chamber_temperature": {
+      "chamber_temperature": "35 °C",
+      "activate_temperature_control": true,
+      "activate_chamber_layer": 1
+    },
+    "print_temperature": {
+      "activate_chamber_layer": 1,
+      "first_layer": "240 °C",
+      "other_layers": "240 °C",
+      "auto_temperature": false,
+      "flow_temperature_graph": "[[3.0,210],[10.0,220],[12.0,230]]"
+    },
+    "bed_temperature": {
+      "smooth_pei_plate_high_temp_plate": {
+        "first_layer": "40 °C"
+      },
+      "textured_pei_plate": {
+        "first_layer": "35 °C"
+      },
+      "customized_plate": {
+        "first_layer": "35 °C"
+      },
+      "epoxy_resin_plate": {
+        "first_layer": "30 °C"
+      }
+    },
+    "volumetric_speed_limitation": {
+      "max_volumetric_speed": "2 mm³/s"
+    },
+    "cooling": {
+      "cooling_for_specific_layer": {
+        "no_cooling_for_the_first": "1 layers",
+        "model_fan_speed_at_layer": "0 layer"
+      },
+      "model_fan": {
+        "min_fan_speed_threshold_fan_speed": "100 %",
+        "max_fan_speed_threshold_fan_speed": "100 %",
+        "keep_fan_always_on": true,
+        "slow_printing_down_for_better_layer_cooling": true,
+        "cooling_slowdown_logic": "Uniform cool",
+        "perimeter_transition_distance": "0 mm",
+        "min_print_speed": "10 mm/s",
+        "force_cooling_for_overhangs_and_bridges": true
+      },
+      "thresholds": {
+        "fan_speed_for_overhangs": "100 %",
+        "support_interface_fan_speed": "-1 %"
+      },
+      "side_fan": {
+        "fan_speed": "70 %",
+        "enable_special_area_additional_cooling_fan": false,
+        "special_area_additional_cooling_fan_speed": "100 %",
+        "auxiliary_fan_opening_height": "0.5 mm"
+      },
+      "back_fan": {
+        "activate_air_filtration": false,
+        "during_print": "70 %",
+        "complete_print": "80 %"
+      }
+    },
+    "filament_retraction_overrides": {
+      "length": {
+        "override": true,
+        "value": "1 mm"
+      },
+      "z_hop_when_retracting": {
+        "override": false,
+        "value": "N/A mm"
+      },
+      "z_hop_type": {
+        "override": false,
+        "value": "N/A"
+      },
+      "only_lift_z_above": {
+        "override": false,
+        "value": "N/A mm"
+      },
+      "only_lift_z_below": {
+        "override": false,
+        "value": "N/A mm"
+      },
+      "on_surfaces": {
+        "override": false,
+        "value": "N/A"
+      },
+      "retraction_speed": {
+        "override": true,
+        "value": "40 mm/s"
+      },
+      "deretraction_speed": {
+        "override": false,
+        "value": "N/A mm/s"
+      },
+      "extra_length_on_restart": {
+        "override": false,
+        "value": "N/A mm"
+      },
+      "travel_distance_threshold": {
+        "override": false,
+        "value": "N/A mm"
+      },
+      "retract_on_layer_change": {
+        "override": true,
+        "value": true
+      }
+    }
+  }
+}
