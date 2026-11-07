@@ -147,10 +147,22 @@
         "classic_mode": false,
         "slow_down_for_curled_perimeters": true,
         "overhang_speed_thresholds": [
-          { "percentage": "10%", "speed": "0 mm/s or %" },
-          { "percentage": "25%", "speed": "40 mm/s or %" },
-          { "percentage": "50%", "speed": "20 mm/s or %" },
-          { "percentage": "75%", "speed": "5 mm/s or %" }
+          {
+            "percentage": "10%",
+            "speed": "0 mm/s or %"
+          },
+          {
+            "percentage": "25%",
+            "speed": "40 mm/s or %"
+          },
+          {
+            "percentage": "50%",
+            "speed": "20 mm/s or %"
+          },
+          {
+            "percentage": "75%",
+            "speed": "5 mm/s or %"
+          }
         ],
         "bridge_overhang": "40 mm/s External",
         "bridge_speed": "150% mm/s or % Internal"
@@ -246,5 +258,9 @@
         "support_wall_loops_tree": "0"
       }
     }
+  },
+  "source_details": {
+    "instagram": "https://www.instagram.com/slades_armory/",
+    "reel_url": "https://www.instagram.com/p/DfKNVoyjUIa/"
   }
 }
