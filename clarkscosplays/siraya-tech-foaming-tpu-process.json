@@ -1,0 +1,176 @@
+{
+  "name": "Clarks Cosplays Siraya Tech Foaming TPU Process Settings",
+  "profile_name": "0.18mm Foaming @BBL H2S 0.6 n… (truncated)",
+  "source": "clarkscosplays",
+  "source_details": {
+    "creator": "@clarkscosplays",
+    "instagram": "https://www.instagram.com/clarkscosplays/",
+    "contact": "https://linktr.ee/clarkscosplays",
+    "evidence": "20 supplied Instagram Reel screenshots. A = C74F0E13 batch, B = 7AC482DF batch; numbers refer to Photo numbers.",
+    "baseline": "User reports stock settings plus the creator's specific changes. Exact stock preset revision and slicer version are not established. Visible values are transcribed; no unshown stock defaults are invented.",
+    "format": "Grouped documentary JSON matching slades_armory; not a native slicer import."
+  },
+  "printer_context": {
+    "printer": "Bambu Lab H2S",
+    "nozzle": "0.6 mm",
+    "flow": "Standard",
+    "bed_type": "Texture… (truncated)"
+  },
+  "evidence_sections": {
+    "quality": "B1, B8–B9",
+    "strength": "A7–A10, B10",
+    "speed": "A5–A6",
+    "support": "A1–A4"
+  },
+  "settings": {
+    "layer_height": {
+      "layer_height": "0.18 mm",
+      "first_layer_height": "0.3 mm",
+      "mixed_color_sublayer": false
+    },
+    "line_width": {
+      "default": "0.62 mm",
+      "first_layer": "0.62 mm",
+      "outer_wall": "0.62 mm",
+      "inner_wall": "0.62 mm",
+      "top_surface": "0.62 mm",
+      "sparse_infill": "0.62 mm",
+      "internal_solid_infill": "0.62 mm",
+      "support": "0.62 mm"
+    },
+    "seam": {
+      "seam_position": "Aligned"
+    },
+    "walls": {
+      "wall_loops": 4,
+      "detect_thin_walls": false
+    },
+    "top_bottom_shells": {
+      "top_surface_pattern": "Monotonic",
+      "top_surface_density": "100 %",
+      "top_shell_layers": 3,
+      "top_shell_thickness": "0.8 mm",
+      "top_paint_penetration_layers": 3,
+      "bottom_surface_pattern": "Monotonic",
+      "bottom_surface_density": "100 %",
+      "bottom_shell_layers": 3,
+      "bottom_shell_thickness": "0 mm",
+      "bottom_paint_penetration_layers": 3,
+      "internal_solid_infill_pattern": "Rectilinear"
+    },
+    "infill": {
+      "sparse_infill_density": "7 %",
+      "fill_multiline": 1,
+      "sparse_infill_pattern": "Gyroid",
+      "sparse_infill_anchor_length": "400%",
+      "maximum_length_of_the_infill_anchor": "20 mm",
+      "infill_wall_overlap": "15 %",
+      "infill_direction": "45°",
+      "bridge_direction": "0°",
+      "minimum_sparse_infill_threshold": "15 mm²",
+      "infill_combination": false,
+      "detect_narrow_internal_solid_infill": true,
+      "ensure_vertical_shell_thickness": "Enabled",
+      "detect_floating_vertical_shells": true
+    },
+    "speed": {
+      "first_layer_speed": {
+        "first_layer": "50 mm/s",
+        "first_layer_infill": "105 mm/s"
+      },
+      "other_layers_speed": {
+        "outer_wall": "200 mm/s",
+        "inner_wall": "300 mm/s",
+        "small_perimeters": "50%",
+        "small_perimeters_threshold": "0 mm",
+        "sparse_infill": "350 mm/s",
+        "internal_solid_infill": "250 mm/s",
+        "vertical_shell_speed": "80%",
+        "top_surface": "200 mm/s",
+        "bridge": "30 mm/s",
+        "gap_infill": "50 mm/s",
+        "support": "150 mm/s",
+        "support_interface": "80 mm/s"
+      },
+      "overhang_speed": {
+        "slow_down_for_overhangs": true,
+        "overhang_speed_thresholds": [
+          {
+            "percentage": "10%",
+            "speed": "0 mm/s"
+          },
+          {
+            "percentage": "25%",
+            "speed": "50 mm/s"
+          },
+          {
+            "percentage": "50%",
+            "speed": "30 mm/s"
+          },
+          {
+            "percentage": "75%",
+            "speed": "10 mm/s"
+          },
+          {
+            "percentage": "100%",
+            "speed": "10 mm/s"
+          }
+        ],
+        "slow_down_by_height": false
+      },
+      "travel_speed": {
+        "travel": "1000 mm/s"
+      }
+    },
+    "acceleration": {
+      "normal_printing": "10000 mm/s²",
+      "travel": "10000 mm/s²",
+      "initial_layer_travel": "6000 mm/s²",
+      "first_layer": "500 mm/s²",
+      "outer_wall": "5000 mm/s²"
+    },
+    "support": {
+      "enable_support": true,
+      "type": "tree(auto)",
+      "style": "Tree Slim",
+      "threshold_angle": "30°",
+      "on_build_plate_only": true,
+      "support_critical_regions_only": false,
+      "remove_small_overhangs": true,
+      "raft": {
+        "raft_layers": 0
+      },
+      "filament_for_supports": {
+        "support_raft_base": "Default",
+        "support_raft_interface": "Default"
+      },
+      "advanced_support": {
+        "first_layer_density": "90 %",
+        "first_layer_expansion": "-1 mm",
+        "support_wall_loops": -1,
+        "top_z_distance": "0.25 mm",
+        "bottom_z_distance": "0.18 mm",
+        "base_pattern": "Default",
+        "base_pattern_spacing": "2.5 mm",
+        "pattern_angle": "0°",
+        "top_interface_layers": 3,
+        "interface_pattern": "Default",
+        "top_interface_spacing": "0.5 mm",
+        "normal_support_expansion": "0 mm",
+        "support_object_xy_distance": "0.35 mm",
+        "support_object_first_layer_gap": "0.2 mm",
+        "max_bridge_length": "0 mm",
+        "independent_support_layer_height": true
+      }
+    }
+  },
+  "missing_or_uncertain": [
+    "Some labels are clipped on the left. Wall loops = 4 is identified by its position at the top of Strength (A10/B10).",
+    "A2 contains overlapping video frames; stable A4 values are used instead.",
+    "Support fields at the bottom of A1 have clipped labels: first-layer gap, max bridge length and independent support layer height are identified by row order and partial labels.",
+    "Two tree-support values, 5 mm and 2 mm, appear at the bottom of A1 without readable labels; not assigned to named settings.",
+    "An unchecked support option between XY distance and first-layer gap in A1 has no readable label; not assigned.",
+    "Further quality, acceleration, supports and Others settings are not shown; use the creator's stock baseline for unlisted fields. Exact baseline version is unknown.",
+    "No claim is made that every displayed field is changed from stock."
+  ]
+}

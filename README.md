@@ -64,3 +64,40 @@ Transcribed from 19 screenshots of the creator’s Instagram Reel. All credit go
 | Print temperatures / max volumetric speed | Not shown |
 
 The filament screenshots name a Generic TPU profile for BBL H2S, while the process screenshots show Snapmaker U1. Preserve that distinction when consulting these notes. Retraction override boxes are unchecked: the displayed 1.5 mm and 30 mm/s values are not enabled filament overrides. Strength settings (including walls and infill) were not photographed.
+
+---
+
+## Clarks Cosplays (Siraya Tech Foaming TPU, 0.6 mm)
+
+**Creator:** [@clarkscosplays](https://www.instagram.com/clarkscosplays/) on Instagram  
+**Contact:** [Creator’s Linktree](https://linktr.ee/clarkscosplays)  
+**Filament:** Siraya Tech TPU Foaming  
+**Printer / nozzle:** Bambu Lab H2S / 0.6 mm, Standard flow  
+**Folder:** [`clarkscosplays/`](clarkscosplays/)
+
+| File | What it is |
+| --- | --- |
+| [`siraya-tech-foaming-tpu-filament.json`](clarkscosplays/siraya-tech-foaming-tpu-filament.json) | Filament profile: flow ratio, temperatures, volumetric limit and retraction overrides |
+| [`siraya-tech-foaming-tpu-process.json`](clarkscosplays/siraya-tech-foaming-tpu-process.json) | Process profile: layers, line widths, shells, infill, speeds and supports |
+
+The creator uses stock settings plus the specific changes shared here, as reported by the user. These files transcribe the visible settings from 20 supplied Reel screenshots; a displayed value is not automatically a confirmed change from stock. Unlisted fields remain with the stock baseline; its exact version is not established. All credit goes to @clarkscosplays. These are documentary JSON files in the same format as Slades, not native slicer imports.
+
+**Key settings**
+
+| Setting | Value |
+| --- | --- |
+| Nozzle temperature | 265 °C, initial and other layers |
+| Bed temperature | 20 °C textured PEI; 35 °C smooth PEI / high temperature plate |
+| Flow ratio | 0.55 |
+| Max volumetric speed | 3.2 mm³/s |
+| Retraction length override | Enabled, 0 mm |
+| Layer height | 0.18 mm (initial layer 0.3 mm) |
+| Line widths | 0.62 mm for all eight shown roles |
+| Walls | 4 (row label clipped; identified by position) |
+| Top / bottom shell layers | 3 / 3 |
+| Infill | 7 % Gyroid |
+| Supports | Tree (auto), Tree Slim, build plate only, 30° threshold |
+| Support top / bottom Z distance | 0.25 / 0.18 mm |
+| Top support interface layers | 3 |
+
+Cooling and some cropped settings are unavailable and documented in the files. Process speed values are the displayed targets; the filament volumetric limit is recorded separately.

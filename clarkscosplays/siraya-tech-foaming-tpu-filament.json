@@ -1,0 +1,143 @@
+{
+  "name": "Clarks Cosplays Siraya Tech Foaming TPU Filament Settings",
+  "profile_name": "Siraya Tech TPU Foaming @Bambu Lab H2S 0.6 nozzle",
+  "source": "clarkscosplays",
+  "source_details": {
+    "creator": "@clarkscosplays",
+    "instagram": "https://www.instagram.com/clarkscosplays/",
+    "contact": "https://linktr.ee/clarkscosplays",
+    "evidence": "20 supplied Instagram Reel screenshots. A = C74F0E13 batch, B = 7AC482DF batch; numbers refer to Photo numbers.",
+    "baseline": "User reports stock settings plus the creator's specific changes. Exact stock preset revision and slicer version are not established. Visible values are transcribed; no unshown stock defaults are invented.",
+    "format": "Grouped documentary JSON matching slades_armory; not a native slicer import."
+  },
+  "printer_context": {
+    "printer": "Bambu Lab H2S",
+    "nozzle": "0.6 mm",
+    "extrusion_mode": "Direct Drive: Standard"
+  },
+  "evidence_sections": {
+    "basic_information": "B4–B5, B7",
+    "print_temperature": "B2–B3",
+    "volumetric_speed_limitation": "B2",
+    "filament_retraction_overrides": "B6"
+  },
+  "filament_settings": {
+    "basic_information": {
+      "type": "TPU",
+      "vendor": "Siraya Tech",
+      "diameter": "1.75 mm",
+      "plate_stickiness": "High",
+      "flow_ratio": 0.55,
+      "density": "1.24 g/cm³",
+      "shrinkage": "100 %",
+      "velocity_adaptation_factor": 1,
+      "price": "20 money/kg",
+      "softening_temperature": "30 °C",
+      "recommended_nozzle_temperature_min": "250 °C",
+      "recommended_nozzle_temperature_max": "270 °C"
+    },
+    "print_chamber_temperature": {
+      "chamber_temperature": "0 °C"
+    },
+    "print_temperature": {
+      "first_layer": "265 °C",
+      "other_layers": "265 °C"
+    },
+    "bed_temperature": {
+      "smooth_pei_plate_high_temp_plate": {
+        "first_layer": "35 °C",
+        "other_layers": "35 °C"
+      },
+      "textured_pei_plate": {
+        "first_layer": "20 °C",
+        "other_layers": "20 °C"
+      }
+    },
+    "filament_change": {
+      "prime_volume": {
+        "filament_change": "45 mm³",
+        "hotend_change": "60 mm³"
+      },
+      "ramming_length": {
+        "extruder_change": "10 mm",
+        "hotend_change": "10 mm"
+      },
+      "travel_time_after_ramming": {
+        "extruder_change": "0 s",
+        "hotend_change": "0 s"
+      },
+      "target_temperature": {
+        "extruder_change": "0 °C",
+        "hotend_change": "0 °C"
+      }
+    },
+    "volumetric_speed_limitation": {
+      "adaptive_volumetric_speed": false,
+      "max_volumetric_speed": "3.2 mm³/s",
+      "ramming_volumetric_speed": {
+        "extruder_change": "-1 mm³/s",
+        "hotend_change": "-1 mm³/s"
+      }
+    },
+    "filament_scarf_seam_settings": {
+      "scarf_seam_type": "None",
+      "scarf_start_height": "10%",
+      "scarf_slope_gap": "0%",
+      "scarf_length": "10 mm"
+    },
+    "filament_retraction_overrides": {
+      "length": {
+        "override": true,
+        "value": "0 mm"
+      },
+      "z_hop_when_retracting": {
+        "override": false,
+        "value": null
+      },
+      "z_hop_type": {
+        "override": false,
+        "value": null
+      },
+      "retraction_speed": {
+        "override": false,
+        "value": null
+      },
+      "deretraction_speed": {
+        "override": false,
+        "value": null
+      },
+      "extra_length_on_restart": {
+        "override": false,
+        "value": null
+      },
+      "travel_distance_threshold": {
+        "override": false,
+        "value": null
+      },
+      "retract_on_layer_change": {
+        "override": false,
+        "value": null
+      },
+      "wipe_while_retracting": {
+        "override": false,
+        "value": null
+      },
+      "wipe_distance": {
+        "override": false,
+        "value": null
+      },
+      "retract_amount_before_wipe": {
+        "override": false,
+        "value": null
+      }
+    }
+  },
+  "missing_or_uncertain": [
+    "Cooling tab is not shown.",
+    "Other retraction override checkboxes in B6 are unchecked. Disabled fields show N/A; these do not establish effective printer retraction speed or Z-hop.",
+    "Long retraction when cut is visible at the bottom of B6 but partly clipped; its override checkbox appears unchecked.",
+    "B3 has additional bed rows with values 0/0, 30/30 and 35/35 °C, but their full plate labels are clipped; not assigned to named plate types.",
+    "The recommended 250–270 °C range is distinct from the actual 265 °C print temperature.",
+    "Unshown stock settings and precise stock preset version are not supplied."
+  ]
+}
