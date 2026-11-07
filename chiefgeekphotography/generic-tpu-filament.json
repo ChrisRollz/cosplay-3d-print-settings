@@ -5,15 +5,10 @@
     "creator": "@chiefgeekphotography",
     "instagram": "https://www.instagram.com/chiefgeekphotography/",
     "contact": "https://poplme.co/x7bahoMw",
-    "evidence": "19 user-supplied Instagram Reel screenshots; batch A = first 10, batch B = final 9",
-    "transcription_note": "Documentary transcription in the same grouped JSON format as slades_armory; not a native importable slicer preset. Values are only those visible in screenshots. null means not confidently readable. No settings copied from Slades.",
+    "transcription_note": "Grouped JSON matching slades_armory; not a native importable slicer preset. null means unknown.",
     "reel_url": "https://www.instagram.com/reel/Dfc_9JXPmdZ/"
   },
-  "profile_name": "Generic TPU @BBL H2S (project-specific suffix visible in screenshots)",
-  "evidence_sections": {
-    "basic_information": "B4",
-    "filament_retraction_overrides": "B5, B7–B9"
-  },
+  "profile_name": "Generic TPU @BBL H2S",
   "filament_settings": {
     "basic_information": {
       "type": "TPU",
@@ -99,11 +94,11 @@
     }
   },
   "missing_or_uncertain": [
-    "Actual nozzle, bed and chamber print temperatures are not shown. The 200–250 °C range is the recommended range field, not a print temperature.",
-    "Flow ratio, pressure advance, maximum volumetric speed and cooling are not shown.",
-    "85A appears in a subtitle (B8); it does not establish the material brand or hardness of this displayed profile.",
-    "All visible override checkboxes are unchecked. Greyed values are recorded as displayed inherited values, not enabled filament overrides.",
-    "The process screenshots name Snapmaker U1; the filament dialog names BBL H2S. Compatibility or a common printer profile cannot be assumed.",
-    "Default color control reads Pick; no explicit color value is transcribed."
+    "Actual nozzle, bed and chamber print temperatures are unknown. The 200–250 °C recommended range is not a print temperature.",
+    "Flow ratio, pressure advance, maximum volumetric speed and cooling are unknown.",
+    "Material brand and hardness are unconfirmed.",
+    "Retraction overrides are disabled. Recorded values are inherited values.",
+    "The process profile names Snapmaker U1; the filament profile names BBL H2S. Compatibility is unconfirmed.",
+    "Default color is unspecified."
   ]
 }

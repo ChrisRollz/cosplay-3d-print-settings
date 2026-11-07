@@ -50,7 +50,7 @@ All credit goes to the creators. If their settings help you, go follow them.
 | [`generic-tpu-filament.json`](chiefgeekphotography/generic-tpu-filament.json) | Filament information and displayed retraction values, with override status |
 | [`tpu-process.json`](chiefgeekphotography/tpu-process.json) | Process profile: quality, speeds, acceleration, supports and multimaterial |
 
-Transcribed from 19 screenshots of the creator’s Instagram Reel. All credit goes to @chiefgeekphotography. These files follow the documentary JSON format used for Slades above; they are not native slicer imports. Only photographed settings are included; missing or uncertain fields are documented in each file.
+All credit goes to @chiefgeekphotography. These files follow the documentary JSON format used for Slades above; they are not native slicer imports. Missing or uncertain settings are documented in each file.
 
 **Key settings**
 
@@ -65,7 +65,7 @@ Transcribed from 19 screenshots of the creator’s Instagram Reel. All credit go
 | Support top / bottom Z gap | 0.28 / 0.16 mm |
 | Print temperatures / max volumetric speed | Not shown |
 
-The filament screenshots name a Generic TPU profile for BBL H2S, while the process screenshots show Snapmaker U1. Preserve that distinction when consulting these notes. Retraction override boxes are unchecked: the displayed 1.5 mm and 30 mm/s values are not enabled filament overrides. Strength settings (including walls and infill) were not photographed.
+The filament profile names BBL H2S, while the process profile names Snapmaker U1. Preserve that distinction when consulting these notes. Retraction override boxes are unchecked: the displayed 1.5 mm and 30 mm/s values are not enabled filament overrides. Strength settings (including walls and infill) are unknown.
 
 ---
 
@@ -82,7 +82,7 @@ The filament screenshots name a Generic TPU profile for BBL H2S, while the proce
 | [`siraya-tech-foaming-tpu-filament.json`](clarkscosplays/siraya-tech-foaming-tpu-filament.json) | Filament profile: flow ratio, temperatures, volumetric limit and retraction overrides |
 | [`siraya-tech-foaming-tpu-process.json`](clarkscosplays/siraya-tech-foaming-tpu-process.json) | Process profile: layers, line widths, shells, infill, speeds and supports |
 
-The creator uses stock settings plus the specific changes shared here, as reported by the user. These files transcribe the visible settings from 20 supplied Reel screenshots; a displayed value is not automatically a confirmed change from stock. Unlisted fields remain with the stock baseline; its exact version is not established. All credit goes to @clarkscosplays. These are documentary JSON files in the same format as Slades, not native slicer imports.
+The creator uses stock settings plus the specific changes shared here, as reported by the user. A listed value is not automatically a confirmed change from stock. Unlisted fields remain with the stock baseline; its exact version is not established. All credit goes to @clarkscosplays. These are documentary JSON files in the same format as Slades, not native slicer imports.
 
 **Key settings**
 
@@ -95,11 +95,11 @@ The creator uses stock settings plus the specific changes shared here, as report
 | Retraction length override | Enabled, 0 mm |
 | Layer height | 0.18 mm (initial layer 0.3 mm) |
 | Line widths | 0.62 mm for all eight shown roles |
-| Walls | 4 (row label clipped; identified by position) |
+| Walls | 4 (requires confirmation) |
 | Top / bottom shell layers | 3 / 3 |
 | Infill | 7 % Gyroid |
 | Supports | Tree (auto), Tree Slim, build plate only, 30° threshold |
 | Support top / bottom Z distance | 0.25 / 0.18 mm |
 | Top support interface layers | 3 |
 
-Cooling and some cropped settings are unavailable and documented in the files. Process speed values are the displayed targets; the filament volumetric limit is recorded separately.
+Cooling and other unspecified settings are documented in the files. Process speed values are the displayed targets; the filament volumetric limit is recorded separately.

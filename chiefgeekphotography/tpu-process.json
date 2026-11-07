@@ -6,8 +6,7 @@
     "creator": "@chiefgeekphotography",
     "instagram": "https://www.instagram.com/chiefgeekphotography/",
     "contact": "https://poplme.co/x7bahoMw",
-    "evidence": "19 user-supplied Instagram Reel screenshots; batch A = first 10, batch B = final 9",
-    "transcription_note": "Documentary transcription in the same grouped JSON format as slades_armory; not a native importable slicer preset. Values are only those visible in screenshots. null means not confidently readable. No settings copied from Slades.",
+    "transcription_note": "Grouped JSON matching slades_armory; not a native importable slicer preset. null means unknown.",
     "reel_url": "https://www.instagram.com/reel/Dfc_9JXPmdZ/"
   },
   "printer_context": {
@@ -15,12 +14,6 @@
     "bed_type": "Textured PEI Plate",
     "nozzle": "0.4 mm",
     "flow": "Standard"
-  },
-  "evidence_sections": {
-    "quality": "A1–A3",
-    "speed": "A4–A8",
-    "support": "A9–A10, B1, B6",
-    "multimaterial": "B2–B3"
   },
   "settings": {
     "layer_height": {
@@ -227,14 +220,11 @@
     }
   },
   "missing_or_uncertain": [
-    "Strength tab not supplied: wall count, top/bottom shells and infill density/pattern are unknown.",
-    "Other tab not supplied.",
-    "Quality below the visible precision section and remainder of overhang options are not captured.",
-    "Remaining jerk settings are below the screenshot edge.",
-    "Support style and process profile name are truncated.",
-    "Independent support layer height checkbox is not confidently readable.",
-    "X-Y contour compensation value is obscured.",
-    "These are displayed process speeds, not measured effective TPU extrusion speeds.",
-    "External bridge density is obscured by the Reel caption; internal bridge density reads 100%."
+    "Wall count, top/bottom shells and infill density/pattern are unknown.",
+    "Additional quality, overhang, jerk and Others settings are unknown.",
+    "Full support style and process profile names are unknown.",
+    "Independent support layer height and X-Y contour compensation are unknown.",
+    "Process speeds are target values, not measured effective TPU extrusion speeds.",
+    "External bridge density is unknown; internal bridge density is 100%."
   ]
 }

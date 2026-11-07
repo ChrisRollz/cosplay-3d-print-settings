@@ -6,8 +6,7 @@
     "creator": "@clarkscosplays",
     "instagram": "https://www.instagram.com/clarkscosplays/",
     "contact": "https://linktr.ee/clarkscosplays",
-    "evidence": "20 supplied Instagram Reel screenshots. A = C74F0E13 batch, B = 7AC482DF batch; numbers refer to Photo numbers.",
-    "baseline": "User reports stock settings plus the creator's specific changes. Exact stock preset revision and slicer version are not established. Visible values are transcribed; no unshown stock defaults are invented.",
+    "baseline": "Stock settings plus the creator's specific changes. Exact stock preset revision and slicer version are not established.",
     "format": "Grouped documentary JSON matching slades_armory; not a native slicer import.",
     "reel_url": "https://www.instagram.com/reel/DfPMhrGAq82/"
   },
@@ -16,12 +15,6 @@
     "nozzle": "0.6 mm",
     "flow": "Standard",
     "bed_type": "Texture… (truncated)"
-  },
-  "evidence_sections": {
-    "quality": "B1, B8–B9",
-    "strength": "A7–A10, B10",
-    "speed": "A5–A6",
-    "support": "A1–A4"
   },
   "settings": {
     "layer_height": {
@@ -166,12 +159,9 @@
     }
   },
   "missing_or_uncertain": [
-    "Some labels are clipped on the left. Wall loops = 4 is identified by its position at the top of Strength (A10/B10).",
-    "A2 contains overlapping video frames; stable A4 values are used instead.",
-    "Support fields at the bottom of A1 have clipped labels: first-layer gap, max bridge length and independent support layer height are identified by row order and partial labels.",
-    "Two tree-support values, 5 mm and 2 mm, appear at the bottom of A1 without readable labels; not assigned to named settings.",
-    "An unchecked support option between XY distance and first-layer gap in A1 has no readable label; not assigned.",
-    "Further quality, acceleration, supports and Others settings are not shown; use the creator's stock baseline for unlisted fields. Exact baseline version is unknown.",
-    "No claim is made that every displayed field is changed from stock."
+    "Wall loop count and support first-layer gap, max bridge length and independent support layer height require confirmation.",
+    "Additional tree support settings are unspecified.",
+    "Use the creator's stock baseline for unlisted fields. Exact baseline version is unknown.",
+    "A listed value is not necessarily changed from stock."
   ]
 }

@@ -6,8 +6,7 @@
     "creator": "@clarkscosplays",
     "instagram": "https://www.instagram.com/clarkscosplays/",
     "contact": "https://linktr.ee/clarkscosplays",
-    "evidence": "20 supplied Instagram Reel screenshots. A = C74F0E13 batch, B = 7AC482DF batch; numbers refer to Photo numbers.",
-    "baseline": "User reports stock settings plus the creator's specific changes. Exact stock preset revision and slicer version are not established. Visible values are transcribed; no unshown stock defaults are invented.",
+    "baseline": "Stock settings plus the creator's specific changes. Exact stock preset revision and slicer version are not established.",
     "format": "Grouped documentary JSON matching slades_armory; not a native slicer import.",
     "reel_url": "https://www.instagram.com/reel/DfPMhrGAq82/"
   },
@@ -15,12 +14,6 @@
     "printer": "Bambu Lab H2S",
     "nozzle": "0.6 mm",
     "extrusion_mode": "Direct Drive: Standard"
-  },
-  "evidence_sections": {
-    "basic_information": "B4–B5, B7",
-    "print_temperature": "B2–B3",
-    "volumetric_speed_limitation": "B2",
-    "filament_retraction_overrides": "B6"
   },
   "filament_settings": {
     "basic_information": {
@@ -134,11 +127,11 @@
     }
   },
   "missing_or_uncertain": [
-    "Cooling tab is not shown.",
-    "Other retraction override checkboxes in B6 are unchecked. Disabled fields show N/A; these do not establish effective printer retraction speed or Z-hop.",
-    "Long retraction when cut is visible at the bottom of B6 but partly clipped; its override checkbox appears unchecked.",
-    "B3 has additional bed rows with values 0/0, 30/30 and 35/35 °C, but their full plate labels are clipped; not assigned to named plate types.",
+    "Cooling settings are unknown.",
+    "Only the retraction length override is enabled. Other retraction fields do not establish effective printer retraction speed or Z-hop.",
+    "Long retraction when cut is unconfirmed.",
+    "Additional bed plate temperatures are unspecified.",
     "The recommended 250–270 °C range is distinct from the actual 265 °C print temperature.",
-    "Unshown stock settings and precise stock preset version are not supplied."
+    "Exact stock preset version is unknown."
   ]
 }
