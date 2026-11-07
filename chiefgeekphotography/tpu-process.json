@@ -7,7 +7,8 @@
     "instagram": "https://www.instagram.com/chiefgeekphotography/",
     "contact": "https://poplme.co/x7bahoMw",
     "evidence": "19 user-supplied Instagram Reel screenshots; batch A = first 10, batch B = final 9",
-    "transcription_note": "Documentary transcription in the same grouped JSON format as slades_armory; not a native importable slicer preset. Values are only those visible in screenshots. null means not confidently readable. No settings copied from Slades."
+    "transcription_note": "Documentary transcription in the same grouped JSON format as slades_armory; not a native importable slicer preset. Values are only those visible in screenshots. null means not confidently readable. No settings copied from Slades.",
+    "reel_url": "https://www.instagram.com/reel/Dfc_9JXPmdZ/"
   },
   "printer_context": {
     "printer": "Snapmaker U1",
