@@ -1,6 +1,6 @@
 # 3D Printing Settings
 
-Collected by [@chris.rollz](https://www.instagram.com/chris.rollz/), a cosplay maker sharing builds, 3D prints, and useful settings from the community. Follow along on Instagram.
+Collected by [@chris.rollz](https://www.instagram.com/chris.rollz/), a cosplay maker sharing builds, 3D prints, and useful settings from the community. Follow along on Instagram, or check out my [Dragonslayer prop build](https://www.instagram.com/reel/DdaV4w-Btna/).
 
 Some of the best cosplay and armor builders out there print their work, and a lot of them share the slicer settings that get them there. This repo is where I collect those settings from creators I like, so I can find them again and so anyone else can use them too.
 
