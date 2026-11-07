@@ -1,0 +1,239 @@
+{
+  "name": "Chief Geek Photography TPU Process Settings",
+  "profile_name": "TPU 0.16 High Quality @Snapmaker … (truncated)",
+  "source": "chiefgeekphotography",
+  "source_details": {
+    "creator": "@chiefgeekphotography",
+    "instagram": "https://www.instagram.com/chiefgeekphotography/",
+    "contact": "https://poplme.co/x7bahoMw",
+    "evidence": "19 user-supplied Instagram Reel screenshots; batch A = first 10, batch B = final 9",
+    "transcription_note": "Documentary transcription in the same grouped JSON format as slades_armory; not a native importable slicer preset. Values are only those visible in screenshots. null means not confidently readable. No settings copied from Slades."
+  },
+  "printer_context": {
+    "printer": "Snapmaker U1",
+    "bed_type": "Textured PEI Plate",
+    "nozzle": "0.4 mm",
+    "flow": "Standard"
+  },
+  "evidence_sections": {
+    "quality": "A1–A3",
+    "speed": "A4–A8",
+    "support": "A9–A10, B1, B6",
+    "multimaterial": "B2–B3"
+  },
+  "settings": {
+    "layer_height": {
+      "layer_height": "0.16 mm",
+      "first_layer_height": "0.2 mm"
+    },
+    "line_width": {
+      "default": "0.42 mm",
+      "first_layer": "0.5 mm",
+      "outer_wall": "0.42 mm",
+      "inner_wall": "0.45 mm",
+      "top_surface": "0.42 mm",
+      "sparse_infill": "0.45 mm",
+      "internal_solid_infill": "0.42 mm",
+      "support": "0.42 mm"
+    },
+    "seam": {
+      "seam_position": "Aligned",
+      "staggered_inner_seams": false,
+      "seam_gap": "10%",
+      "scarf_joint_seam_beta": "None",
+      "role_base_wipe_speed": true
+    },
+    "precision": {
+      "wipe_speed": "80%",
+      "wipe_on_loops": false,
+      "wipe_before_external_loop": false,
+      "slice_gap_closing_radius": "0.049 mm",
+      "resolution": "0.012 mm",
+      "arc_fitting": false,
+      "x_y_hole_compensation": "0 mm",
+      "x_y_contour_compensation": null
+    },
+    "walls_and_surfaces": {
+      "walls_printing_order": "Inner/Outer",
+      "print_infill_first": false,
+      "wall_loop_direction": "Auto",
+      "top_surface_flow_ratio": 1,
+      "bottom_surface_flow_ratio": 1,
+      "only_one_wall_on_top_surfaces": true,
+      "one_wall_threshold": "300%",
+      "only_one_wall_on_first_layer": false,
+      "avoid_crossing_walls": true,
+      "avoid_crossing_walls_max_detour_length": "0 mm",
+      "small_area_flow_compensation_beta": false
+    },
+    "bridging": {
+      "bridge_flow_ratio": 1,
+      "internal_bridge_flow_ratio": 1,
+      "external_bridge_density": null,
+      "internal_bridge_density": "100 %",
+      "thick_external_bridges": false,
+      "thick_internal_bridges": true,
+      "extra_bridge_layers_beta": "Disabled",
+      "filter_out_small_internal_bridges": "Filter",
+      "bridge_counterbore_holes": "None"
+    },
+    "overhangs": {
+      "detect_overhang_walls": true
+    },
+    "speed": {
+      "first_layer_speed": {
+        "first_layer": "20 mm/s",
+        "first_layer_infill": "50 mm/s",
+        "initial_layer_travel_speed": "100%",
+        "number_of_slow_layers": "0 layers"
+      },
+      "other_layers_speed": {
+        "outer_wall": "75 mm/s",
+        "inner_wall": "150 mm/s",
+        "small_perimeters": "50%",
+        "small_perimeters_threshold": "0 mm",
+        "sparse_infill": "270 mm/s",
+        "internal_solid_infill": "250 mm/s",
+        "top_surface": "200 mm/s",
+        "gap_infill": "250 mm/s",
+        "support": "150 mm/s",
+        "support_interface": "80 mm/s"
+      },
+      "overhang_speed": {
+        "slow_down_for_overhangs": true,
+        "slow_down_for_curled_perimeters": false,
+        "overhang_speed_thresholds": [
+          {
+            "range": "(10%, 25%)",
+            "speed": "60 mm/s or %"
+          },
+          {
+            "range": "[25%, 50%)",
+            "speed": "30 mm/s or %"
+          },
+          {
+            "range": "[50%, 75%)",
+            "speed": "10 mm/s or %"
+          },
+          {
+            "range": "[75%, 100%]",
+            "speed": "10 mm/s or %"
+          }
+        ],
+        "unit_note": "UI says mm/s or %; these four values have no percent suffix.",
+        "bridge_overhang": "50 mm/s External",
+        "bridge_speed": "150% Internal"
+      },
+      "travel_speed": {
+        "travel": "500 mm/s"
+      }
+    },
+    "acceleration": {
+      "normal_printing": "10000 mm/s²",
+      "outer_wall": "5000 mm/s²",
+      "inner_wall": "10000 mm/s²",
+      "bridge": "50%",
+      "sparse_infill": "100%",
+      "internal_solid_infill": "100%",
+      "first_layer": "500 mm/s²",
+      "first_layer_travel": "100%",
+      "top_surface": "2000 mm/s²",
+      "travel": "10000 mm/s²",
+      "enable_accel_to_decel": true,
+      "accel_to_decel": "50 %"
+    },
+    "jerk_xy": {
+      "default": "0 mm/s",
+      "outer_wall": "9 mm/s",
+      "inner_wall": "9 mm/s"
+    },
+    "support": {
+      "enable_support": true,
+      "type": "Tree (auto)",
+      "style": "Default (Grid… (truncated)",
+      "threshold_angle": "30°",
+      "threshold_overlap": "50%",
+      "on_build_plate_only": true,
+      "support_critical_regions_only": false,
+      "remove_small_overhangs": true,
+      "raft": {
+        "raft_layers": "0 layers"
+      },
+      "filament_for_supports": {
+        "support_raft_base": "2 PLA",
+        "support_raft_interface": "2 PLA"
+      },
+      "support_ironing": {
+        "ironing_support_interface": false
+      },
+      "advanced_support": {
+        "first_layer_density": "90 %",
+        "first_layer_expansion": "2 mm",
+        "top_z_distance": "0.28 mm",
+        "bottom_z_distance": "0.16 mm",
+        "support_wall_loops": "0",
+        "base_pattern": "Default",
+        "base_pattern_spacing": "2.5 mm",
+        "pattern_angle": "0°",
+        "top_interface_layers": "2 layers",
+        "bottom_interface_layers": "2 layers",
+        "interface_pattern": "Default",
+        "top_interface_spacing": "0.5 mm",
+        "minimum_support_contact_area": "0.25 mm²",
+        "bottom_interface_spacing": "0.5 mm",
+        "normal_support_expansion": "0 mm",
+        "support_object_xy_distance": "0.45 mm",
+        "support_object_first_layer_gap": "0.2 mm",
+        "max_bridge_length": "10 mm",
+        "independent_support_layer_height": null
+      },
+      "tree_supports": {
+        "tip_diameter": "0.8 mm",
+        "tree_support_branch_distance": "1 mm",
+        "branch_density": "30 %"
+      }
+    },
+    "multimaterial": {
+      "prime_tower": {
+        "enable": true,
+        "width": "30 mm",
+        "prime_volume": "36 mm³",
+        "brim_width": "5 mm",
+        "maximal_bridging_distance": "10 mm",
+        "wipe_tower_purge_lines_spacing": "120 %",
+        "extra_flow_for_purging": "100 %",
+        "max_speed": "90 mm/s",
+        "wall_type": "Rib",
+        "extra_rib_length": "8 mm",
+        "rib_width": "8 mm",
+        "fillet_wall": true,
+        "wall_gap": true,
+        "internal_ribs": false,
+        "prime_all_printing_extruders": false
+      },
+      "filament_for_features": {
+        "walls": "1 TPU",
+        "infill": "1 TPU",
+        "solid_infill": "1 TPU",
+        "wipe_tower": "2 PLA"
+      },
+      "ooze_prevention": {
+        "enable": true,
+        "temperature_variation": "-150 °C (delta)",
+        "preheat_time": "30 s",
+        "preheat_delta_temperature": "0 °C (delta)"
+      }
+    }
+  },
+  "missing_or_uncertain": [
+    "Strength tab not supplied: wall count, top/bottom shells and infill density/pattern are unknown.",
+    "Other tab not supplied.",
+    "Quality below the visible precision section and remainder of overhang options are not captured.",
+    "Remaining jerk settings are below the screenshot edge.",
+    "Support style and process profile name are truncated.",
+    "Independent support layer height checkbox is not confidently readable.",
+    "X-Y contour compensation value is obscured.",
+    "These are displayed process speeds, not measured effective TPU extrusion speeds.",
+    "External bridge density is obscured by the Reel caption; internal bridge density reads 100%."
+  ]
+}
